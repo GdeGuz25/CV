@@ -3,6 +3,5 @@ const button = document.querySelector('button');
 
 /* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
 button.addEventListener('click', function() {
-	alert('Каждый миг ценен, каждый шаг важен');
-	let message = `${emojiSmile}, ${emojiThumbsUp}`
+	alert('Каждый миг ценен, каждый шаг важен')
 })
